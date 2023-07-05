@@ -5,8 +5,15 @@ In order to demonstrate my abilities in data cleaning and EDA, I downloaded the 
 While there are many public datasets available for the Apple App Store, there aren't as many for the Google Play Store and I thought it would be interesting to explore this data since I am an Android user. The publisher of the dataset said it wasn't easy to scrape data from the Google Play Store, so I guessed there would be ample opportunity to get meaningful practice in cleaning the data before using it.</br>
 # Steps taken to clean and preprocess the dataset </br>
 Before the data was loaded, I took a look at it in Excel to see if there were any obvious issues that needed to be addressed first. One row was missing data in one of its columns, so every other column's data had been shifted by one cell. This put a float value in a column that would otherwie be classed as an object, but since I didn't know the value of the missing cell I deleted the row altogether.
-Once the data was loaded from Hugging Face, I preprocessed it by:
-- 
+</br></br>
+Once the data was imported from Hugging Face, I preprocessed it by:
+- loading necessary libraries (Pandas, NumPy)
+- checking the datatypes of the different columns
+- removing unneeded columns
+</br>
+And then cleaned it by:
+- deleting duplicate data
+</br>
 # EDA performed
 # Conclusions from analysis
 # Next steps
