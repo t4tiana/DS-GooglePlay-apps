@@ -13,7 +13,13 @@ Once the data was imported from Hugging Face, I preprocessed it by:
 </br>
 And then cleaned it by:
 - deleting duplicate data
+- removing special characters from the Installs and Price columns to ensure the data is purely numeric
+- converting Installs and Price data types from object to float
 </br>
 # EDA performed
+#### Most popular app categories
+
+
+
 # Conclusions from analysis
 # Next steps
