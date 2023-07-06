@@ -106,15 +106,12 @@ By plotting sentiment polarity scores of user reviews for paid and free apps, we
 - The median polarity score for paid apps is a little higher than free apps, in congruence with the previous observation.
 <br>
 
-Companies looking to develop apps for download in the Google Play Store could use the analysis in this notebook to inform their decisions around what category of app to create, what size to make it, and how to price it.
-<br>
-
 [<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/27825d5a-4b61-45dc-8605-d7feff87516f" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/27825d5a-4b61-45dc-8605-d7feff87516f)
 
 <br>
 
-
 # Conclusions from analysis
-<br>
+Companies looking to develop apps for download in the Google Play Store could use this analysis to inform their decisions around what category of app to create, what size to make it, and how to price it.<br>
 
 # Next steps
+With additional data on **when** downloads were taking place, linear regression and time series analysis could be used to look at potential seasonality and forecast downloads at different points of the year. It would be interesting to test the hypothesis that Paid apps are more likely to get downloaded at certain times of the year, like paid fitness apps being more frequently downloaded in January after people have made their New Years resolutions. This could help companies decide when to offer promotions or release new features to encourage more downloads.
