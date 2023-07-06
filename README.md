@@ -21,15 +21,15 @@ And then cleaned it by:
 ### Most popular app categories
 <br>
 
-![popular_apps](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/0af86303-71bd-49ac-afed-5ac561da6977)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/0af86303-71bd-49ac-afed-5ac561da6977" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/0af86303-71bd-49ac-afed-5ac561da6977)
 <br>
 
 ### Average app ratings
 <br>
-One can see that the histogram is skewed to the left, meaning that the majority of apps are rated highly.<br> However, with 1465 out of 10358 apps (14.1%) of apps missing a rating, we cannot be certain that the mean rating is actually 4.2
+We see that the histogram is skewed to the left, meaning that the majority of apps are rated highly.<br> However, with 1465 out of 10358 apps (14.1%) of apps missing a rating, we cannot be certain that the mean rating is actually 4.2
 <br><br>
 
-![avg_app_ratings](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/d03f364b-7c77-4508-aaf6-a572d98cf414)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/d03f364b-7c77-4508-aaf6-a572d98cf414" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/d03f364b-7c77-4508-aaf6-a572d98cf414)
 <br>
 
 ### App Size and Price
@@ -48,14 +48,14 @@ By also looking at the price of apps on the Google App Store, a developer could 
 #### Rating vs App Size
 <br>
 
-![rating_vs_size](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/36ba7357-40a6-4fed-a137-29110797310b)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/36ba7357-40a6-4fed-a137-29110797310b" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/36ba7357-40a6-4fed-a137-29110797310b)
 
 #### Rating vs App Price
 <br>
 We find that the majority of top-rated apps (rated 4+) are under 20 MB. We also find that the vast majority of apps price themselves under $10.
-<br>
+<br><br>
 
-![rating_vs_price](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/1c382f3c-618a-4696-a155-fda46ac87a62)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/1c382f3c-618a-4696-a155-fda46ac87a62" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/1c382f3c-618a-4696-a155-fda46ac87a62)
 <br>
 
 ### App prices by Category
@@ -66,7 +66,7 @@ Companies not only want to cover the cost of developing and maintaining their ap
 **Medical** and **Family** apps are the most expensive. This could mean that customers perceive the value of these apps to be higher than apps in other categories.<br> All **Game** apps are priced below $20, which a company should take into consideraion when developing a pricing strategy for their new gaming app.
 <br>
 
-![price_by_cat](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/2781b710-43a2-447c-9ac9-7bec31cf12b9)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/2781b710-43a2-447c-9ac9-7bec31cf12b9" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/2781b710-43a2-447c-9ac9-7bec31cf12b9)
 <br>
 
 ### Excluding outliers: Apps priced over US $100
@@ -75,7 +75,7 @@ Companies not only want to cover the cost of developing and maintaining their ap
 Some apps are priced high but don't seem to serve a purpose (*I'm Rich*, *most expensive app*, *I am Rich Plus*, etc.)
 Excluding these apps from the strip plot can provide a more useful visualization for someone who wants to understand the pricing of apps in each category. <br>
 
-![rm_price_outliers](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/31a585f3-64cd-4f02-a257-a0903581d42a)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/31a585f3-64cd-4f02-a257-a0903581d42a" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/31a585f3-64cd-4f02-a257-a0903581d42a)
 <br>
 
 ### Number of installs: Free vs Paid Apps
@@ -94,7 +94,7 @@ Of the 10,358 apps that have been analyzed in this dataset, 76.5% are Free to do
 One may think that this would result in Paid apps being installed much less frequently, but this box plot shows **this is not the case.**
 <br>
 
-![install_free_vs_paid](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/ba3afb50-07cd-4fe8-b70a-15cbe45b8f4d)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/ba3afb50-07cd-4fe8-b70a-15cbe45b8f4d" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/ba3afb50-07cd-4fe8-b70a-15cbe45b8f4d)
 <br>
 
 ### Sentiment Analysis of user review data
@@ -109,7 +109,7 @@ By plotting sentiment polarity scores of user reviews for paid and free apps, we
 Companies looking to develop apps for download in the Google Play Store could use the analysis in this notebook to inform their decisions around what category of app to create, what size to make it, and how to price it.
 <br>
 
-![sentiment_pol_dist](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/1df6f467-7ec6-4149-81f9-e5225fc436e9)
+[<img src="https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/27825d5a-4b61-45dc-8605-d7feff87516f" width="800"/>](https://github.com/t4tiana/EDA-GooglePlay-apps/assets/118233338/27825d5a-4b61-45dc-8605-d7feff87516f)
 
 <br>
 
